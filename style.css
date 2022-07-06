@@ -1,0 +1,242 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#name{
+      position: absolute;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 65px;
+      background: linear-gradient(to right, rgb(0, 0, 0) , #9c4e4e, #464246, #979735);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+       padding-left: 30px;
+       padding-top: 20px; 
+}
+
+body{
+    background-color: lightgrey;
+}
+
+#buttons{
+    position: absolute;
+    padding-left: 65%;
+    top: 2%; 
+}
+
+#button{
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    border: 2px solid rgb(72, 70, 70) ;
+    background-color: lightgrey;
+    
+}
+
+ #button:hover{
+    background-color:lightsalmon ;
+    
+ }
+
+ #button1{
+    color: black;
+ }
+
+ #profileimage{
+     border: 5px solid ;
+     position: absolute;
+     top: 27%;
+     left:69.9% ;
+     width: 350px;
+     height: 350px;
+ }
+
+ #intro{
+    position: absolute;
+    top: 35%;
+    left: 3%;
+    font-size: 52px;
+    font-family: mono;
+    font-family: 'Times New Roman', Times, serif;
+    color: #363436;
+    
+ }
+
+ .line1{
+    width:  20px;
+    height: 2px;
+    color: red;
+ }
+
+ 
+
+#Contacts{
+  position: absolute;
+  top: 740%;
+  
+
+}
+
+
+
+hr{
+   position: relative;
+   bottom: 40px;
+   background-color: rgb(5, 0, 0);
+   left: 30px;
+   width: 1000px;
+   height: 3px;
+   background: linear-gradient(to right, rgb(5, 5, 5), #706c6c, #a49fa4, #b6b699);
+      
+}
+
+#footertext{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   position: relative;
+   left: 10%;
+   font-size: 40px;
+}
+
+#mailicon{
+   width: 50px ;
+   height: 50px ;
+   position: absolute;
+   left: 25px;
+   top: 10px;
+}
+ 
+#callicon{
+   width: 50px ;
+   height: 50px ;
+   position: absolute;
+   left: 25px;
+   bottom: 115px;
+
+}
+
+#instagramicon{
+   width: 50px ;
+   height: 50px ;
+   position: absolute;
+   left: 25px;
+
+}
+
+#education{
+   position: absolute;
+   top: 400%;
+}
+#contacttext{
+   position: absolute;
+   bottom: 140%;
+   font-size: 80px;
+   padding: 25px;
+   font-family: 'Times New Roman', Times, serif;
+   
+}
+#Education{
+   position: absolute;
+   bottom: 120%;
+   font-size: 80px;
+   padding: 25px;
+   font-family: 'Times New Roman', Times, serif;
+   
+}
+
+
+#educationline{
+  
+      position: relative;
+      top: 25px;
+      background-color: rgb(5, 0, 0);
+      left: 30px;
+      width: 1000px;
+      height: 3px;
+      background: linear-gradient(to right, rgb(5, 5, 5), #706c6c, #a49fa4, #b6b699);
+         
+   
+}
+
+#college{
+         position: relative;
+         top: 70px;
+         left: 50px;
+         font-size: 30px;
+         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+         color: #3e0909;
+}
+
+#school{
+   position: absolute;
+   top: 414%;
+   left: 40%;
+
+}
+
+#name1{
+   position: relative;
+   bottom: 35px;
+   left: 50px;
+   font-size: 30px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+   color: #5d5959;
+}
+
+#skills1{
+   position: absolute;
+   top: 150%;
+   left: 40px;
+}
+
+#Skills{
+   position: absolute;
+   font-size: 80px;
+   font-family: 'Times New Roman', Times, serif;
+   top: 15%;
+}
+
+#skillsline{
+   position: relative;
+      top: 225px;
+      background-color: rgb(5, 0, 0);
+      left: 5px;
+      width: 1000px;
+      height: 3px;
+      background: linear-gradient(to right, rgb(5, 5, 5), #706c6c, #a49fa4, #b6b699);
+}
+
+#label1{
+   font-size: 55px;
+   position: absolute;
+   top: 350px;
+   left: 45px;
+}
+
+#label2{
+   font-size: 55px;
+   position: absolute;
+   top: 500px;
+   left: 45px;
+}
+
+#label3{
+   font-size: 55px;
+   position: absolute;
+   top: 650px;
+   left: 45px;
+
+}
+
+progress[value]{
+   width: 550px;
+   height: 40px;
+   border-radius: 2px;
+   position: relative;
+   top: 235px;
+   left: 550px;
+   display: flex;
+   margin: 115px;
+   
+}
